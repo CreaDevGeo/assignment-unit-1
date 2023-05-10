@@ -1,5 +1,3 @@
-/* Give your page a fun background color */
-
 /* Changes background to blue with white text throughout page. */
 body {background-color: #0f4c5c; color: white; margin: 0 auto;}
 
@@ -31,13 +29,15 @@ div img {
 ul li {
     width:50%; 
     margin: 10px auto;
-    padding: 2px;font-family: Georgia, 'Times New Roman', Times, serif; 
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     font-size: 1.5rem; 
     list-style: square;
 
 }
 /* End of list rules */
 
+/* Footer rules: Italic font, font-size increase, font-color change, and solid, colored border. */
 footer p {
     color: wheat; 
     width: 50%;
@@ -48,17 +48,19 @@ footer p {
     font-size: 1.5rem;
     font-style: italic;
 }
+/* End of footer rules */
 
 
 
+/* Rules for the assignment */
+    /* Give your page a fun background color */
+    
+    /* Make the header and footer a different color from the background */
 
+    /* Align the h1 containing your name in the center of the header*/
 
-/* Make the header and footer a different color from the background */
+    /* Make your p tag a different color and italic */
 
-/* Align the h1 containing your name in the center of the header*/
+    /* Put a border around your image */
 
-/* Make your p tag a different color and italic */
-
-/* Put a border around your image */
-
-/* Change the font-family of your list */
+    /* Change the font-family of your list */
