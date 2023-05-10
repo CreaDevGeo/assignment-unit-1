@@ -1,45 +1,55 @@
 /* Give your page a fun background color */
-body {background-color: #0f4c5c; color: white;}
+
+/* Changes background to blue with white text throughout page. */
+body {background-color: #0f4c5c; color: white; margin: 0 auto;}
+
+/* Header rules: red background, border and radius, new font size and family, margin, padding, text-align centered. */
 header h1 {
     background-color: red;
-    width: 20%;
-    height: 20%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    text-align: center; 
+    width: 40%;
     margin: 20px auto; 
-    padding: 5px; 
+    padding: 20px 10px; 
     border: 8px solid black; 
     border-radius: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center; 
+    
 }
+/* End of header rules */
 
-li {width:50%; 
+/* Image rules: Centered in page, border and border radius, block element */
+div img {
+    display: block; width: 20%;
+    margin: 10px auto; 
+    border: 5px solid black; 
+    border-radius: 3%;
+}
+/* End of image rules */
+
+/* List rules: Increase of size list items, added padding, new font-style and square list style*/
+ul li {
+    width:50%; 
+    margin: 10px auto;
     padding: 2px;font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 2rem; 
-    list-style: square;}
+    font-size: 1.5rem; 
+    list-style: square;
 
-footer {
-    width: 20%;
-    margin: 5px 0 0 23%;
-    background-color: black;
-    padding: 1rem;
-    text-align: center;
-    text-align: center;
 }
+/* End of list rules */
 
 footer p {
-    color: white; 
+    color: wheat; 
+    width: 50%;
+    margin: 10px auto;
+    padding: 1rem;
+    border: 3px solid ;
+    text-align: center;
     font-size: 1.5rem;
     font-style: italic;
 }
 
-div img {
-    display: block; width: 20%;  
-    border: 8px solid black; 
-    border-radius: 3%;
-    margin: 0 100px 0 8px;
-    float: left;
-}
+
 
 
 
